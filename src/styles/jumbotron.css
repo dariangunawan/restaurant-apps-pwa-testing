@@ -1,0 +1,40 @@
+/* jumbotron */
+.hero {
+	display: flex;
+	align-items: center;
+	min-height: 380px;
+	width: 100%;
+	text-align: center;
+	background-position: center;
+	background-color: black
+}
+
+.hero_inner {
+	margin: 0 auto;
+	max-width: 800px
+}
+
+.hero_title {
+	color: #fff;
+	min-width: 44px;
+    min-height: 44px;
+	font-weight: 600;
+	font-size: 36px;
+	text-shadow: 2px 2px 4px #141414
+}
+
+.hero_subtitle {
+	margin-top: 16px;
+	color: #fff;
+	font-size: 18px;
+	font-style: italic;
+	min-width: 44px;
+    min-height: 44px;
+	font-weight: 600;
+	text-shadow: 1px 1px #141414
+}
+
+.content__heading {
+	min-width: 44px;
+    min-height: 44px
+}

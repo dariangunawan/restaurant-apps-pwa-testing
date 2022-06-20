@@ -1,0 +1,13 @@
+/* footer */
+footer {
+	background-color: #bf1722;
+	color: white;
+	font-size: 14px;
+	padding: 2em;
+	width: 100%;
+	text-align: center
+}
+
+.footer, p {
+	text-shadow: 2px 2px 4px #000000;
+}
