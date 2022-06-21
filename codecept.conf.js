@@ -14,11 +14,11 @@ exports.config = {
     Puppeteer: {
       url: 'https://localhost:8080',
       show: true,
-      windowSize: '1200x900'
-    }
+      windowSize: '1200x900',
+    },
   },
   include: {
-    I: './steps_file.js'
+    I: './steps_file.js',
   },
   bootstrap: null,
   mocha: {},
@@ -31,4 +31,4 @@ exports.config = {
       enabled: true,
     },
   },
-}
+};

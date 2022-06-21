@@ -7,9 +7,11 @@ import '../styles/jumbotron.css';
 import '../styles/footer.css';
 import '../styles/main.css';
 import '../styles/responsive.css';
+import './views/components/component';
+import 'lazysizes';
+import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 import App from './views/app';
 import swRegister from './utils/sw-register';
-import './views/components/component';
 
 const app = new App({
     content: document.querySelector('#content'),

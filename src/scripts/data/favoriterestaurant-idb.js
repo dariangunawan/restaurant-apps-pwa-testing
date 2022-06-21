@@ -30,7 +30,7 @@ const FavoriteRestaurantIdb = {
 
     return (await dbPromise).put(OBJECT_STORE_NAME, restaurant);
   },
-  
+
   async searchRestaurants(query) {
     return (await this.getAllRestaurants()).filter((restaurant) => {
       const loweredCaseRestaurantTitle = (restaurant.title || '-').toLowerCase();
