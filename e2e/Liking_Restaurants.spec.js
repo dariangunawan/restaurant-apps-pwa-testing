@@ -61,7 +61,7 @@ Scenario('unliking one restaurant', async ({ I }) => {
     I.wait(3);
     I.seeElement('.restaurant-item p');
 
-    const firstRestaurantlike = locate('.restaurant-item p').first();
+    const firstRestaurantlike = locate('.restaurant__name p').first();
     const likedRestaurantName = await I.grabTextFrom(firstRestaurantlike);
     assert.strictEqual(firstRestaurantName, likedRestaurantName);
     I.click(firstRestaurantlike);
